@@ -1,0 +1,11 @@
+[user]
+	email = ajkeller@umich.edu
+	name = Aaron Keller
+[alias]
+	st = status
+	ll = log --stat --abbrev-commit
+	gr = log --graph --full-history --all --color
+	graph = log --graph --full-history --all --color --pretty=tformat:"%C(red)%h%C(reset)%x09%C(green)%d%C(reset)%C(bold)%s%C(reset)%C(yellow)(%an)%C(reset)"
+	# This will automatically fix simple typos, e.g. `git psuh` will run `git push`
+[help]
+	autocorrect = 1
